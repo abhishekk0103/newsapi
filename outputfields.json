@@ -1,0 +1,95 @@
+[
+  {
+    "key": "status",
+    "name": "Status",
+    "hintText": "Status",
+    "helpText": "Status",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "string",
+    "controlType": "text"
+  },
+  {
+    "key": "sources",
+    "name": "Sources",
+    "hintText": "Sources",
+    "helpText": "Sources",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "array",
+    "controlType": "array",
+    "as": "object",
+    "properties": [
+      {
+        "key": "id",
+        "name": "Id",
+        "hintText": "Id",
+        "helpText": "Id",
+        "isExtendedSchema": false,
+        "required": false,
+        "type": "string",
+        "controlType": "text"
+      },
+      {
+        "key": "name",
+        "name": "Name",
+        "hintText": "Name",
+        "helpText": "Name",
+        "isExtendedSchema": false,
+        "required": false,
+        "type": "string",
+        "controlType": "text"
+      },
+      {
+        "key": "description",
+        "name": "Description",
+        "hintText": "Description",
+        "helpText": "Description",
+        "isExtendedSchema": false,
+        "required": false,
+        "type": "string",
+        "controlType": "text"
+      },
+      {
+        "key": "url",
+        "name": "Url",
+        "hintText": "Url",
+        "helpText": "Url",
+        "isExtendedSchema": false,
+        "required": false,
+        "type": "string",
+        "controlType": "text"
+      },
+      {
+        "key": "category",
+        "name": "Category",
+        "hintText": "Category",
+        "helpText": "Category",
+        "isExtendedSchema": false,
+        "required": false,
+        "type": "string",
+        "controlType": "text"
+      },
+      {
+        "key": "language",
+        "name": "Language",
+        "hintText": "Language",
+        "helpText": "Language",
+        "isExtendedSchema": false,
+        "required": false,
+        "type": "string",
+        "controlType": "text"
+      },
+      {
+        "key": "country",
+        "name": "Country",
+        "hintText": "Country",
+        "helpText": "Country",
+        "isExtendedSchema": false,
+        "required": false,
+        "type": "string",
+        "controlType": "text"
+      }
+    ]
+  }
+]
